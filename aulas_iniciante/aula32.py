@@ -49,14 +49,14 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 Se tiver entre 5 e 6 letras, escreva "Seu nome é normal", maior que 6 letras escreva "Seu nome é muito grande".
 '''   
 
-# primeiro_nome = input('Escreva somente seu primeiro nome, por favor \n')
+primeiro_nome = input('Escreva somente seu primeiro nome, por favor \n')
 
-# qnt_letras = len(primeiro_nome)  #- nome.count(" ")
+qnt_letras = len(primeiro_nome)  #- nome.count(" ")
 
-# if qnt_letras > 6:
-#     print(f"Seu nome é muito grande, pois tem {qnt_letras} letras")
-# elif qnt_letras >= 5 and qnt_letras <= 6:
-#     print(f"Seu nome é normal, pois tem {qnt_letras} letras")
-# else:
-#     print(f"Seu nome é curto, pois tem {qnt_letras} letras")
+if qnt_letras > 6:
+    print(f"Seu nome é muito grande, pois tem {qnt_letras} letras")
+elif qnt_letras >= 5 and qnt_letras <= 6:
+    print(f"Seu nome é normal, pois tem {qnt_letras} letras")
+else:
+    print(f"Seu nome é curto, pois tem {qnt_letras} letras")
 
